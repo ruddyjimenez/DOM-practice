@@ -11,3 +11,6 @@ paragraph.textContent = 'This is a paragraph'
 paragraph.style.background = 'burlywood'
 paragraph.style.fontSize = '30px'
 paragraph.style.textAlign = 'center'
+
+let hello = document.querySelector('.hello')
+hello.innerHTML = '<p>hello</p>'
