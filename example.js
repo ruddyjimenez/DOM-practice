@@ -7,5 +7,6 @@ var powerRangers = [
 ]
 
 for (var i = 0; i < powerRangers.length; i++) {
-    powerRangers[i].
+    powerRangers[i].textContent = powerRangers['']
+    console.log()
 }
