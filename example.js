@@ -16,3 +16,10 @@ for (var i = 0; i < powerRangers.length; i++) {
     newName.textContent = powerRangers[i]
     rangersList.append(newName)
 }
+
+//alternative example
+
+var rangersList = document.getElementById("rangers")
+
+for (var i = 0; i < powerRangers.length; i++) {
+    rangersList.innerHTML += "<li>" + powerRangers[i] + "</li>"
