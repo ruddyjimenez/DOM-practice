@@ -41,3 +41,10 @@ var rangersList = document.getElementById("rangers")
 for (var i = 0; i < powerRangers.length; i++) {
     rangersList.innerHTML += "<li>" + powerRangers[i].name + '- ' + powerRangers[i].color + "</li>"
 }
+
+//another example
+
+var color = document.getElementById("header").addEventListener("dblclick", function() {
+    // console.log("The header was double clicked!")
+    header.style.background = 'blue'
+})
